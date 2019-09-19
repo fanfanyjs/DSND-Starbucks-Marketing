@@ -33,11 +33,12 @@ A hybrid of classification model and regression models are run to predict the ex
 
 The logic is as follows:
 
-\begin{equation*}
-P(success) = P(viewed) * P(completed)\\
-Net Revenue Uplift(per order) = Revenue with offer - Difficulty - Revenue without Offer\\
-Expected Uplift(per order) = P(success) * Net Revenue Uplift\\
-\end{equation*}
+P(success) = P(viewed) * P(completed)
+
+Net Revenue Uplift(per order) = Revenue with offer - Difficulty - Revenue without Offer
+
+Expected Uplift(per order) = P(success) * Net Revenue Uplift
+
 
 I have experimented with XGBoost, Random Forest and Linear models (Logistics for classification, Linear Regression and Ridge for regression) using the following features:
 - demographics (age, income, gender)
