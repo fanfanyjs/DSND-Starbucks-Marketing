@@ -8,6 +8,14 @@ In particular, we are given three datasets:
 
 The data has included ten different offer types. There are bogo (buy-one-get-one), discount, and informational offers, with a variety of distribution channels, minimum spend required and amount of reward. There can be three actions associated with a single offer - receive, view and complete. The offer can be marked as completed even when a user hasn't viewed the offer before using it.
 
+## Dependencies
+
+Python 3.5 is used to create this project and the following libraries are used:
+
+- Machine Learning Libraries: NumPy, Pandas, Sciki-Learn, XGBoost
+- Data Visualisation: Matplotlib, Seaborn
+- Python Serialization: Joblib
+
 ## Methodology
 
 In this exercise, I have assumed each offer received by a customer to be independent of others received by the same customer. I have built a classification model to predict whether each offer sent to each customer, would successfully prompt the user to make a purchase. This assumption is made as each customer is usually sent multiple types of offers of different offers (not all types) with different sequences. As a result, there is no like for like comparison on a customer level as each receives different treatment. 
