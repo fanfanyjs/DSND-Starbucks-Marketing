@@ -12,9 +12,14 @@ The data has included ten different offer types. There are bogo (buy-one-get-one
 
 Python 3.5 is used to create this project and the following libraries are used:
 
-- Machine Learning Libraries: NumPy, Pandas, Sciki-Learn, XGBoost
+- Machine Learning Libraries: math, NumPy, Pandas, Sciki-Learn, XGBoost
 - Data Visualisation: Matplotlib, Seaborn
-- Python Serialization: Joblib
+- Python Serialization: joblib
+- Date: date
+- Warnings: warning
+
+Customised functions are also written using these libraries and are imported from the following python file:
+- customised_fct: RawPreprocess, TreatmentModelling, EDAplot
 
 ## Methodology
 
