@@ -1,9 +1,15 @@
 # DSND-Starbucks-Marketing
 
-## Description
+## Motivation
 This project is the capstone assignment of the Udacity Data Science Nanodegree. We are given stimulated data from Starbucks reward mobile app that tracks the users who have received, viewed and used the offers, as well as any other transactions they have made. Our task is to find out what offer types elicit the most response from which type of customers.
 
-In particular, we are given three datasets:
+In particular, I would like to investigate the below questions:
+- Which particular groups of people are likely to complete offers in general?
+- Which particular offers are likelier to evoke response or completion in general?
+- Which offer should we tailor to a specific customer?
+
+## Data
+We are given three datasets:
 - Profile: customer data with id and demographic details
 - Portfolio: list of offers with distribution channel, minimum spend, reward and effective duration
 - Transcript: list of events (offer receipt, view, and redemption) occurence time and transaction amount
