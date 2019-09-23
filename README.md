@@ -10,11 +10,13 @@ In particular, I would like to investigate the below questions:
 
 ## Data
 We are given three datasets:
-- Profile: customer data with id and demographic details
-- Portfolio: list of offers with distribution channel, minimum spend, reward and effective duration
-- Transcript: list of events (offer receipt, view, and redemption) occurence time and transaction amount
+- Profile.json: customer data with id and demographic details
+- Portfolio.json: list of offers with distribution channel, minimum spend, reward and effective duration
+- Transcript.json: list of events (offer receipt, view, and redemption) occurence time and transaction amount
 
 The data has included ten different offer types. There are bogo (buy-one-get-one), discount, and informational offers, with a variety of distribution channels, minimum spend required and amount of reward. There can be three actions associated with a single offer - receive, view and complete. The offer can be marked as completed even when a user hasn't viewed the offer before using it.
+
+*Please note that the Transcript file cannot be uploaded as it has exceeded the size limit of Github
 
 ## Dependencies
 
