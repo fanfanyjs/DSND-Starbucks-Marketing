@@ -65,6 +65,7 @@ XGBoost performs the best for all these models as it could predict values whose 
 
 Its regressors have an R2 of 21% to 71% (most of them are above 50%). By removing outlier values (people who pay a lot of money per purchase), the error has significantly reduced. Nevertheless, the regression models don't perform as ideal for some of the offers as some of the distribution are bimodel. Gaussian mixture models could potentially be of better fit in this situation. Also, there might be insufficient prior transaction data to help predict a customer's purchase frequency and behaviour.
 
+My Medium post on this analysis can be accessed [here](https://medium.com/@yap.fantasy/how-to-target-promotional-offers-in-starbucks-to-increase-roi-1b801eb9a4b5).
 
 ## Credits
 Thanks to Udacity and Starbucks for preparing the data and structuring this piece of assignment.
