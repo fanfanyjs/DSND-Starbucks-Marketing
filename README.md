@@ -71,3 +71,5 @@ My Medium post on this analysis can be accessed [here](https://medium.com/@yap.f
 Thanks to Udacity and Starbucks for preparing the data and structuring this piece of assignment.
 
 Several papers and blogs that I have come across have also inspired my approach towards this problem.  
+[1] Gordon, B. R., Zettelmeyer, F., Bhargava, N., & Chapsky, D. (2017). A Comparison of Approaches to Advertising Measurement: Evidence from Big Field Experiments at Facebook. SSRN Electronic Journal. doi: 10.2139/ssrn.3033144
+[2] Gelman, A., & Hill, J. (n.d.). Causal inference using regression on the treatment variable. Data Analysis Using Regression and Multilevel/Hierarchical Models, 167–198. doi: 10.1017/cbo9780511790942.012
